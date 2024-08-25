@@ -1,39 +1,16 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
-
-type WordType = {
-  word: string;
-  url: string;
-};
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Landing from "./pages/Landing";
+import DefaultLayout from "./layouts/DefaultLayout";
 
 function App() {
-  const [data, setData] = useState<WordType[]>([]);
-
-  useEffect(() => {
-    axios
-      .get("/api/nlp/tokenize", {
-        params: {
-          sentence: "안녕하세요. 이것은 수어 번역기입니다.",
-        },
-      })
-      .then(
-        ({ data }) => {
-          console.log(data);
-          setData(data);
-        },
-        (error) => {
-          console.log(error);
-        }
-      );
-  }, []);
   return (
-    <>
-      <div>
-        {data.map((word, idx) => {
-          return <div key={idx}>{word.word}</div>;
-        })}
-      </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<DefaultLayout />}>
+          <Route path="/" element={<Landing />}></Route>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
