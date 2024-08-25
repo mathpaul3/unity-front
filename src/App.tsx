@@ -1,7 +1,14 @@
 import axios from "axios";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+
+type WordType = {
+  word: string;
+  url: string;
+};
 
 function App() {
+  const [data, setData] = useState<WordType[]>([]);
+
   useEffect(() => {
     axios
       .get("/api/nlp/tokenize", {
@@ -12,13 +19,22 @@ function App() {
       .then(
         ({ data }) => {
           console.log(data);
+          setData(data);
         },
         (error) => {
           console.log(error);
         }
       );
   }, []);
-  return <></>;
+  return (
+    <>
+      <div>
+        {data.map((word, idx) => {
+          return <div key={idx}>{word.word}</div>;
+        })}
+      </div>
+    </>
+  );
 }
 
 export default App;
