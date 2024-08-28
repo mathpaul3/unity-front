@@ -14,6 +14,38 @@ export const characters = [
   "Example",
 ] as const;
 
+export type CharacterFBX = (typeof charactersFBX)[number];
+export type CharacterGLTF = (typeof charactersGLTF)[number];
+export type Character = (typeof characters)[number];
+
+export type InitialScale = {
+  [chara in Character]: number;
+};
+
+export const initialScales: InitialScale = {
+  Remy: 1,
+  ActorCore: 3.5,
+  HatsuneMikuMesmerizer: 1,
+  KasumizawaMiyu: 7,
+  Rapi: 8.5,
+  Ururu: 8,
+  Example: 1,
+};
+
+// export type InitialScale = {
+//   [chara in Character]: { x: number; y: number; z: number };
+// };
+
+// export const initialScales: InitialScale = {
+//   Remy: { x: 10, y: 10, z: 10 },
+//   ActorCore: { x: 1, y: 1, z: 1 },
+//   HatsuneMikuMesmerizer: { x: 1, y: 1, z: 1 },
+//   KasumizawaMiyu: { x: 1, y: 1, z: 1 },
+//   Rapi: { x: 1, y: 1, z: 1 },
+//   Ururu: { x: 1, y: 1, z: 1 },
+//   Example: { x: 1, y: 1, z: 1 },
+// };
+
 export const side = ["Left", "Right"];
 export const knuckles = ["Proximal", "Intermediate", "Distal"];
 export const fingers = ["Index", "Middle", "Ring", "Little", "Thumb"];
@@ -99,10 +131,6 @@ export const bodyParts = [
   ...rightArmParts,
   ...rightHandParts,
 ] as const;
-
-export type CharacterFBX = (typeof charactersFBX)[number];
-export type CharacterGLTF = (typeof charactersGLTF)[number];
-export type Character = (typeof characters)[number];
 
 export type LeftArmPart = (typeof leftArmParts)[number];
 export type LeftHandIndexFinger = (typeof leftHandIndexFingers)[number];
