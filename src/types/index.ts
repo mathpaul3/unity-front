@@ -1,4 +1,3 @@
-import { folder } from "leva";
 import { BodyPart } from "./model";
 
 export type WordType = {

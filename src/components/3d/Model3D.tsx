@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { Suspense, useLayoutEffect, useRef, useState } from "react";
+import { Suspense, useState } from "react";
 import { CharacterGLTF, characters, charactersGLTF } from "../../types/model";
 import { GLTFModel } from "./GLTFModel";
 import { Canvas } from "@react-three/fiber";
