@@ -1,0 +1,6 @@
+public/models/Rapi filter=lfs diff=lfs merge=lfs -text
+public/models/Remy filter=lfs diff=lfs merge=lfs -text
+public/models/Ururu filter=lfs diff=lfs merge=lfs -text
+public/models/ActorCore filter=lfs diff=lfs merge=lfs -text
+public/models/HatsuneMikuMesmerizer filter=lfs diff=lfs merge=lfs -text
+public/models/KasumizawaMiyu filter=lfs diff=lfs merge=lfs -text

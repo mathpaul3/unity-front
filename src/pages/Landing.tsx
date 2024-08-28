@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import useDebounce from "../utils/debounce";
 import axios from "axios";
 import { PART_OF_SPEECH, PartOfSpeechType, WordBlockType } from "../types";
+import Model3D from "../components/3d/Model3D";
 
 function Landing() {
   const [input, setInput] = useState<string>("");
@@ -28,6 +29,9 @@ function Landing() {
 
   return (
     <>
+      <div id="model-3d-container">
+        <Model3D />
+      </div>
       <div id="sentence-input">
         <input
           type="text"

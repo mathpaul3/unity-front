@@ -6,6 +6,9 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
   return {
     plugins: [react()],
+    build: {
+      chunkSizeWarningLimit: 1600,
+    },
     server: {
       proxy: {
         "/api": {

@@ -1,0 +1,822 @@
+{
+  "character": {
+    "ActorCore": {
+      "LeftUpperArm": "CC_Base_L_Upperarm_063",
+      "LeftForeArm": "CC_Base_L_Forearm_064",
+      "LeftWrist": "CC_Base_L_Hand_068",
+      "LeftIndexFingerProximal": "CC_Base_L_Index1_072",
+      "LeftIndexFingerIntermediate": "CC_Base_L_Index2_073",
+      "LeftIndexFingerDistal": "CC_Base_L_Index3_074",
+      "LeftMiddleFingerProximal": "CC_Base_L_Mid1_069",
+      "LeftMiddleFingerIntermediate": "CC_Base_L_Mid2_070",
+      "LeftMiddleFingerDistal": "CC_Base_L_Mid3_071",
+      "LeftRingFingerProximal": "CC_Base_L_Ring1_075",
+      "LeftRingFingerIntermediate": "CC_Base_L_Ring2_076",
+      "LeftRingFingerDistal": "CC_Base_L_Ring3_077",
+      "LeftLittleFingerProximal": "CC_Base_L_Pinky1_078",
+      "LeftLittleFingerIntermediate": "CC_Base_L_Pinky2_079",
+      "LeftLittleFingerDistal": "CC_Base_L_Pinky3_080",
+      "LeftThumbProximal": "CC_Base_L_Thumb1_081",
+      "LeftThumbIntermediate": "CC_Base_L_Thumb2_082",
+      "LeftThumbDistal": "CC_Base_L_Thumb3_083",
+      "RightUpperArm": "CC_Base_R_Upperarm_093",
+      "RightForeArm": "CC_Base_R_Forearm_096",
+      "RightWrist": "CC_Base_R_Hand_0100",
+      "RightIndexFingerProximal": "CC_Base_R_Index1_0109",
+      "RightIndexFingerIntermediate": "CC_Base_R_Index2_0110",
+      "RightIndexFingerDistal": "CC_Base_R_Index3_0111",
+      "RightMiddleFingerProximal": "CC_Base_R_Mid1_0101",
+      "RightMiddleFingerIntermediate": "CC_Base_R_Mid2_0102",
+      "RightMiddleFingerDistal": "CC_Base_R_Mid3_0103",
+      "RightRingFingerProximal": "CC_Base_R_Ring1_01",
+      "RightRingFingerIntermediate": "CC_Base_R_Ring2_0104",
+      "RightRingFingerDistal": "CC_Base_R_Ring3_0105",
+      "RightLittleFingerProximal": "CC_Base_R_Pinky1_0112",
+      "RightLittleFingerIntermediate": "CC_Base_R_Pinky2_0113",
+      "RightLittleFingerDistal": "CC_Base_R_Pinky3_0114",
+      "RightThumbProximal": "CC_Base_R_Thumb1_0106",
+      "RightThumbIntermediate": "CC_Base_R_Thumb2_0107",
+      "RightThumbDistal": "CC_Base_R_Thumb3_0108"
+    },
+    "HatsuneMikuMesmerizer": {
+      "LeftUpperArm": "������C_178",
+      "LeftForeArm": "���������_169",
+      "LeftWrist": "���������_164",
+      "LeftIndexFingerProximal": "������������_163",
+      "LeftIndexFingerIntermediate": "������������_162",
+      "LeftIndexFingerDistal": "������������_161",
+      "LeftMiddleFingerProximal": "������������_159",
+      "LeftMiddleFingerIntermediate": "������������_158",
+      "LeftMiddleFingerDistal": "������������_157",
+      "LeftRingFingerProximal": "������������_155",
+      "LeftRingFingerIntermediate": "������������_154",
+      "LeftRingFingerDistal": "������������_153",
+      "LeftLittleFingerProximal": "������������_151",
+      "LeftLittleFingerIntermediate": "������������_150",
+      "LeftLittleFingerDistal": "������������_149",
+      "LeftThumbProximal": "������������_147",
+      "LeftThumbIntermediate": "������������_146",
+      "LeftThumbDistal": "������������_145",
+      "RightUpperArm": "������C_138",
+      "RightForeArm": "���������_129",
+      "RightWrist": "���������_124",
+      "RightIndexFingerProximal": "������������_123",
+      "RightIndexFingerIntermediate": "������������_122",
+      "RightIndexFingerDistal": "������������_121",
+      "RightMiddleFingerProximal": "������������_119",
+      "RightMiddleFingerIntermediate": "������������_118",
+      "RightMiddleFingerDistal": "������������_117",
+      "RightRingFingerProximal": "������������_115",
+      "RightRingFingerIntermediate": "������������_114",
+      "RightRingFingerDistal": "������������_113",
+      "RightLittleFingerProximal": "������������_111",
+      "RightLittleFingerIntermediate": "������������_110",
+      "RightLittleFingerDistal": "������������_109",
+      "RightThumbProximal": "������������_107",
+      "RightThumbIntermediate": "������������_106",
+      "RightThumbDistal": "������������_105"
+    },
+    "KasumizawaMiyu": {
+      "LeftUpperArm": "UpperArm_L_165",
+      "LeftForeArm": "LowerArm_L_164",
+      "LeftWrist": "Hand_L_163",
+      "LeftIndexFingerProximal": "Index_Proximal_L_156",
+      "LeftIndexFingerIntermediate": "Index_Intermediate_L_155",
+      "LeftIndexFingerDistal": "Index_Distal_L_154",
+      "LeftMiddleFingerProximal": "Middle_Proximal_L_159",
+      "LeftMiddleFingerIntermediate": "Middle_Intermediate_L_158",
+      "LeftMiddleFingerDistal": "Middle_Distal_L_157",
+      "LeftRingFingerProximal": "Ring_Proximal_L_162",
+      "LeftRingFingerIntermediate": "Ring_Intermediate_L_161",
+      "LeftRingFingerDistal": "Ring_Distal_L_160",
+      "LeftLittleFingerProximal": "Little_Proximal_L_150",
+      "LeftLittleFingerIntermediate": "Little_Intermediate_L_149",
+      "LeftLittleFingerDistal": "Little_Distal_L_148",
+      "LeftThumbProximal": "Thumb_Proximal_L_153",
+      "LeftThumbIntermediate": "Thumb_Intermediate_L_152",
+      "LeftThumbDistal": "Thumb_Distal_L_151",
+      "RightUpperArm": "UpperArm_R_145",
+      "RightForeArm": "LowerArm_R_144",
+      "RightWrist": "Hand_R_142",
+      "RightIndexFingerProximal": "Index_Proximal_R_132",
+      "RightIndexFingerIntermediate": "Index_Intermediate_R_131",
+      "RightIndexFingerDistal": "Index_Distal_R_130",
+      "RightMiddleFingerProximal": "Middle_Proximal_R_135",
+      "RightMiddleFingerIntermediate": "Middle_Intermediate_R_134",
+      "RightMiddleFingerDistal": "Middle_Distal_R_133",
+      "RightRingFingerProximal": "Ring_Proximal_R_138",
+      "RightRingFingerIntermediate": "Ring_Intermediate_R_137",
+      "RightRingFingerDistal": "Ring_Distal_R_136",
+      "RightLittleFingerProximal": "Little_Proximal_R_141",
+      "RightLittleFingerIntermediate": "Little_Intermediate_R_140",
+      "RightLittleFingerDistal": "Little_Distal_R_139",
+      "RightThumbProximal": "Thumb_Proximal_R_129",
+      "RightThumbIntermediate": "Thumb_Intermediate_R_128",
+      "RightThumbDistal": "Thumb_Distal_R_127"
+    },
+    "Rapi": {
+      "LeftUpperArm": "ValveBipedBip01_L_UpperArm_075",
+      "LeftForeArm": "ValveBipedBip01_L_Forearm_076",
+      "LeftWrist": "ValveBipedBip01_L_Hand_077",
+      "LeftIndexFingerProximal": "ValveBipedBip01_L_Finger1_078",
+      "LeftIndexFingerIntermediate": "ValveBipedBip01_L_Finger11_079",
+      "LeftIndexFingerDistal": "ValveBipedBip01_L_Finger12_080",
+      "LeftMiddleFingerProximal": "ValveBipedBip01_L_Finger2_081",
+      "LeftMiddleFingerIntermediate": "ValveBipedBip01_L_Finger21_082",
+      "LeftMiddleFingerDistal": "ValveBipedBip01_L_Finger22_083",
+      "LeftRingFingerProximal": "ValveBipedBip01_L_Finger3_084",
+      "LeftRingFingerIntermediate": "ValveBipedBip01_L_Finger31_085",
+      "LeftRingFingerDistal": "ValveBipedBip01_L_Finger32_086",
+      "LeftLittleFingerProximal": "ValveBipedBip01_L_Finger4_087",
+      "LeftLittleFingerIntermediate": "ValveBipedBip01_L_Finger41_088",
+      "LeftLittleFingerDistal": "ValveBipedBip01_L_Finger42_089",
+      "LeftThumbProximal": "ValveBipedBip01_L_Finger0_090",
+      "LeftThumbIntermediate": "ValveBipedBip01_L_Finger01_091",
+      "LeftThumbDistal": "ValveBipedBip01_L_Finger02_092",
+      "RightUpperArm": "ValveBipedBip01_R_UpperArm_051",
+      "RightForeArm": "ValveBipedBip01_R_Forearm_052",
+      "RightWrist": "ValveBipedBip01_R_Hand_053",
+      "RightIndexFingerProximal": "ValveBipedBip01_R_Finger1_054",
+      "RightIndexFingerIntermediate": "ValveBipedBip01_R_Finger11_055",
+      "RightIndexFingerDistal": "ValveBipedBip01_R_Finger12_056",
+      "RightMiddleFingerProximal": "ValveBipedBip01_R_Finger2_057",
+      "RightMiddleFingerIntermediate": "ValveBipedBip01_R_Finger21_058",
+      "RightMiddleFingerDistal": "ValveBipedBip01_R_Finger22_059",
+      "RightRingFingerProximal": "ValveBipedBip01_R_Finger3_060",
+      "RightRingFingerIntermediate": "ValveBipedBip01_R_Finger31_061",
+      "RightRingFingerDistal": "ValveBipedBip01_R_Finger32_062",
+      "RightLittleFingerProximal": "ValveBipedBip01_R_Finger4_063",
+      "RightLittleFingerIntermediate": "ValveBipedBip01_R_Finger41_064",
+      "RightLittleFingerDistal": "ValveBipedBip01_R_Finger42_065",
+      "RightThumbProximal": "ValveBipedBip01_R_Finger0_066",
+      "RightThumbIntermediate": "ValveBipedBip01_R_Finger01_067",
+      "RightThumbDistal": "ValveBipedBip01_R_Finger02_068"
+    },
+    "Remy": {
+      "LeftUpperArm": "mixamorigLeftShoulder",
+      "LeftForeArm": "mixamorigLeftForeArm",
+      "LeftWrist": "mixamorigLeftHand",
+      "LeftIndexFingerProximal": "mixamorigLeftHandIndex1",
+      "LeftIndexFingerIntermediate": "mixamorigLeftHandIndex2",
+      "LeftIndexFingerDistal": "mixamorigLeftHandIndex3",
+      "LeftMiddleFingerProximal": "mixamorigLeftHandMiddle1",
+      "LeftMiddleFingerIntermediate": "mixamorigLeftHandMiddle2",
+      "LeftMiddleFingerDistal": "mixamorigLeftHandMiddle3",
+      "LeftRingFingerProximal": "mixamorigLeftHandRing1",
+      "LeftRingFingerIntermediate": "mixamorigLeftHandRing2",
+      "LeftRingFingerDistal": "mixamorigLeftHandRing3",
+      "LeftLittleFingerProximal": "mixamorigLeftHandPinky1",
+      "LeftLittleFingerIntermediate": "mixamorigLeftHandPinky2",
+      "LeftLittleFingerDistal": "mixamorigLeftHandPinky3",
+      "LeftThumbProximal": "mixamorigLeftHandThumb1",
+      "LeftThumbIntermediate": "mixamorigLeftHandThumb2",
+      "LeftThumbDistal": "mixamorigLeftHandThumb3",
+      "RightUpperArm": "mixamorigRightShoulder",
+      "RightForeArm": "mixamorigRightForeArm",
+      "RightWrist": "mixamorigRightHand",
+      "RightIndexFingerProximal": "mixamorigRightHandIndex1",
+      "RightIndexFingerIntermediate": "mixamorigRightHandIndex2",
+      "RightIndexFingerDistal": "mixamorigRightHandIndex3",
+      "RightMiddleFingerProximal": "mixamorigRightHandMiddle1",
+      "RightMiddleFingerIntermediate": "mixamorigRightHandMiddle2",
+      "RightMiddleFingerDistal": "mixamorigRightHandMiddle3",
+      "RightRingFingerProximal": "mixamorigRightHandRing1",
+      "RightRingFingerIntermediate": "mixamorigRightHandRing2",
+      "RightRingFingerDistal": "mixamorigRightHandRing3",
+      "RightLittleFingerProximal": "mixamorigRightHandPinky1",
+      "RightLittleFingerIntermediate": "mixamorigRightHandPinky2",
+      "RightLittleFingerDistal": "mixamorigRightHandPinky3",
+      "RightThumbProximal": "mixamorigRightHandThumb1",
+      "RightThumbIntermediate": "mixamorigRightHandThumb2",
+      "RightThumbDistal": "mixamorigRightHandThumb3"
+    },
+    "Ururu": {
+      "LeftUpperArm": "ValveBipedBip01_L_UpperArm_019",
+      "LeftForeArm": "ValveBipedBip01_L_Forearm_020",
+      "LeftWrist": "ValveBipedBip01_L_Hand_021",
+      "LeftIndexFingerProximal": "ValveBipedBip01_L_Finger1_035",
+      "LeftIndexFingerIntermediate": "ValveBipedBip01_L_Finger11_036",
+      "LeftIndexFingerDistal": "ValveBipedBip01_L_Finger12_037",
+      "LeftMiddleFingerProximal": "ValveBipedBip01_L_Finger2_032",
+      "LeftMiddleFingerIntermediate": "ValveBipedBip01_L_Finger21_033",
+      "LeftMiddleFingerDistal": "ValveBipedBip01_L_Finger22_034",
+      "LeftRingFingerProximal": "ValveBipedBip01_L_Finger3_029",
+      "LeftRingFingerIntermediate": "ValveBipedBip01_L_Finger31_030",
+      "LeftRingFingerDistal": "ValveBipedBip01_L_Finger32_031",
+      "LeftLittleFingerProximal": "ValveBipedBip01_L_Finger4_026",
+      "LeftLittleFingerIntermediate": "ValveBipedBip01_L_Finger41_027",
+      "LeftLittleFingerDistal": "ValveBipedBip01_L_Finger42_028",
+      "LeftThumbProximal": "ValveBipedBip01_L_Finger0_038",
+      "LeftThumbIntermediate": "ValveBipedBip01_L_Finger01_039",
+      "LeftThumbDistal": "ValveBipedBip01_L_Finger02_040",
+      "RightUpperArm": "ValveBipedBip01_R_UpperArm_046",
+      "RightForeArm": "ValveBipedBip01_R_Forearm_047",
+      "RightWrist": "ValveBipedBip01_R_Hand_048",
+      "RightIndexFingerProximal": "ValveBipedBip01_R_Finger1_065",
+      "RightIndexFingerIntermediate": "ValveBipedBip01_R_Finger11_066",
+      "RightIndexFingerDistal": "ValveBipedBip01_R_Finger12_067",
+      "RightMiddleFingerProximal": "ValveBipedBip01_R_Finger2_062",
+      "RightMiddleFingerIntermediate": "ValveBipedBip01_R_Finger21_063",
+      "RightMiddleFingerDistal": "ValveBipedBip01_R_Finger22_064",
+      "RightRingFingerProximal": "ValveBipedBip01_R_Finger3_059",
+      "RightRingFingerIntermediate": "ValveBipedBip01_R_Finger31_060",
+      "RightRingFingerDistal": "ValveBipedBip01_R_Finger32_061",
+      "RightLittleFingerProximal": "ValveBipedBip01_R_Finger4_056",
+      "RightLittleFingerIntermediate": "ValveBipedBip01_R_Finger41_057",
+      "RightLittleFingerDistal": "ValveBipedBip01_R_Finger42_058",
+      "RightThumbProximal": "ValveBipedBip01_R_Finger0_068",
+      "RightThumbIntermediate": "ValveBipedBip01_R_Finger01_00",
+      "RightThumbDistal": "ValveBipedBip01_R_Finger02_01"
+    },
+    "Example": {
+      "LeftUpperArm": "",
+      "LeftForeArm": "",
+      "LeftWrist": "",
+      "LeftIndexFingerProximal": "",
+      "LeftIndexFingerIntermediate": "",
+      "LeftIndexFingerDistal": "",
+      "LeftMiddleFingerProximal": "",
+      "LeftMiddleFingerIntermediate": "",
+      "LeftMiddleFingerDistal": "",
+      "LeftRingFingerProximal": "",
+      "LeftRingFingerIntermediate": "",
+      "LeftRingFingerDistal": "",
+      "LeftLittleFingerProximal": "",
+      "LeftLittleFingerIntermediate": "",
+      "LeftLittleFingerDistal": "",
+      "LeftThumbProximal": "",
+      "LeftThumbIntermediate": "",
+      "LeftThumbDistal": "",
+      "RightUpperArm": "",
+      "RightForeArm": "",
+      "RightWrist": "",
+      "RightIndexFingerProximal": "",
+      "RightIndexFingerIntermediate": "",
+      "RightIndexFingerDistal": "",
+      "RightMiddleFingerProximal": "",
+      "RightMiddleFingerIntermediate": "",
+      "RightMiddleFingerDistal": "",
+      "RightRingFingerProximal": "",
+      "RightRingFingerIntermediate": "",
+      "RightRingFingerDistal": "",
+      "RightLittleFingerProximal": "",
+      "RightLittleFingerIntermediate": "",
+      "RightLittleFingerDistal": "",
+      "RightThumbProximal": "",
+      "RightThumbIntermediate": "",
+      "RightThumbDistal": ""
+    }
+  },
+  "initialValue": {
+    "ActorCore": {
+      "LeftUpperArm": [
+        0.23094220782926297, 0.0021697687054417617, 0.01878229968552894
+      ],
+      "LeftForeArm": [
+        0.002411921751317132, -0.000004115183517361555, -0.0007110858028169654
+      ],
+      "LeftWrist": [
+        -0.04057073111648333, -0.0005463511806274832, 0.014004430080421201
+      ],
+      "LeftMiddleFingerProximal": [
+        0.04286461851727499, -0.006371893141170197, -0.032729701826004244
+      ],
+      "LeftMiddleFingerIntermediate": [
+        -0.003965947433591302, 0.007000565088731368, -0.0001763315534502304
+      ],
+      "LeftMiddleFingerDistal": [
+        0.0016085196408451988, 0.0001934803084339405, -0.001274643691884549
+      ],
+      "LeftIndexFingerProximal": [
+        0.04473475739750706, -0.0076659382563234076, -0.03216032350051064
+      ],
+      "LeftIndexFingerIntermediate": [
+        0.004412244541368627, 0.010502892118939058, -0.0009557763560969398
+      ],
+      "LeftIndexFingerDistal": [
+        0.0022147090961820103, -0.00006532459015391249, -0.003073041719721397
+      ],
+      "LeftRingFingerProximal": [
+        0.025109828711145206, 0.0007898750769252616, -0.029692019194765926
+      ],
+      "LeftRingFingerIntermediate": [
+        -0.008571928984844133, -0.0002579593142647768, -0.0012754536663388408
+      ],
+      "LeftRingFingerDistal": [
+        0.002996303291985123, -0.00036420127771395045, -0.005625332383684286
+      ],
+      "LeftLittleFingerProximal": [
+        0.03286836602358882, 0.0002383054699690007, -0.030956439094550897
+      ],
+      "LeftLittleFingerIntermediate": [
+        -0.018124847584855178, -0.0028375557814442503, 0.000013690788298293806
+      ],
+      "LeftLittleFingerDistal": [
+        0.0037615568515264293, 0.00013697414127174926, -0.05382653040823601
+      ],
+      "LeftThumbProximal": [
+        0.8405552841660151, -0.27345813673272146, -0.019777624457229744
+      ],
+      "LeftThumbIntermediate": [
+        -0.33150003060948335, -0.018796674306973286, 0.09763732808960747
+      ],
+      "LeftThumbDistal": [
+        -0.024157491722741595, 0.001630534230387925, 0.026473899506345107
+      ],
+      "RightUpperArm": [
+        0.23095399583939205, -0.002163539719197457, -0.01876522440442386
+      ],
+      "RightForeArm": [
+        0.0024150699147253416, 0.0000040048667127689, 0.0006989874586574772
+      ],
+      "RightWrist": [
+        -0.04058493169573839, 0.0005389671453837278, -0.013989366582040972
+      ],
+      "RightMiddleFingerProximal": [
+        0.042863807143673584, 0.006371705993726809, 0.03272538196495355
+      ],
+      "RightMiddleFingerIntermediate": [
+        -0.0039750366579678975, -0.00700055484153194, 0.00017117932386911296
+      ],
+      "RightMiddleFingerDistal": [
+        0.0016065838486635838, -0.00019344765653023815, 0.001282825502117809
+      ],
+      "RightRingFingerProximal": [
+        0.02509384382721269, -0.0007901783414299322, 0.029600441733422158
+      ],
+      "RightRingFingerIntermediate": [
+        -0.008500446133454324, 0.0002574731935928719, 0.0013954725881881996
+      ],
+      "RightRingFingerDistal": [
+        0.0029328140369795207, 0.0003632615805130565, 0.0055718188699466495
+      ],
+      "RightThumbProximal": [
+        0.8405594829385152, 0.27344670263455645, 0.019800368232201236
+      ],
+      "RightThumbIntermediate": [
+        -0.33149821404114926, 0.018806199953316175, -0.09766372726157294
+      ],
+      "RightThumbDistal": [
+        -0.024161707019912854, -0.0016300541534574136, -0.026480640659756274
+      ],
+      "RightIndexFingerProximal": [
+        0.044732565710250076, 0.007665766111867276, 0.03216216445296602
+      ],
+      "RightIndexFingerIntermediate": [
+        0.004415103713730311, -0.010503886684018955, 0.0009205745079235312
+      ],
+      "RightIndexFingerDistal": [
+        0.002215632470129222, 0.00006612293678252453, 0.0030956839163269086
+      ],
+      "RightLittleFingerProximal": [
+        0.03283188673852054, -0.00023963424549933952, 0.030981816063036603
+      ],
+      "RightLittleFingerIntermediate": [
+        -0.018081966269968094, 0.002838248609666423, -0.000008151382841248236
+      ],
+      "RightLittleFingerDistal": [
+        0.003753892720693927, -0.00013828537851166733, 0.053855492553097524
+      ]
+    },
+    "HatsuneMikuMesmerizer": {
+      "RightUpperArm": [0, 0, 0],
+      "RightForeArm": [0, 0, 0],
+      "RightWrist": [0, 0, 0],
+      "RightThumbProximal": [0, 0, 0],
+      "RightThumbIntermediate": [0, 0, 0],
+      "RightThumbDistal": [0, 0, 0],
+      "RightLittleFingerProximal": [0, 0, 0],
+      "RightLittleFingerIntermediate": [0, 0, 0],
+      "RightLittleFingerDistal": [0, 0, 0],
+      "RightRingFingerProximal": [0, 0, 0],
+      "RightRingFingerIntermediate": [0, 0, 0],
+      "RightRingFingerDistal": [0, 0, 0],
+      "RightMiddleFingerProximal": [0, 0, 0],
+      "RightMiddleFingerIntermediate": [0, 0, 0],
+      "RightMiddleFingerDistal": [0, 0, 0],
+      "RightIndexFingerProximal": [0, 0, 0],
+      "RightIndexFingerIntermediate": [0, 0, 0],
+      "RightIndexFingerDistal": [0, 0, 0],
+      "LeftUpperArm": [0, 0, 0],
+      "LeftForeArm": [0, 0, 0],
+      "LeftWrist": [0, 0, 0],
+      "LeftThumbProximal": [0, 0, 0],
+      "LeftThumbIntermediate": [0, 0, 0],
+      "LeftThumbDistal": [0, 0, 0],
+      "LeftLittleFingerProximal": [0, 0, 0],
+      "LeftLittleFingerIntermediate": [0, 0, 0],
+      "LeftLittleFingerDistal": [0, 0, 0],
+      "LeftRingFingerProximal": [0, 0, 0],
+      "LeftRingFingerIntermediate": [0, 0, 0],
+      "LeftRingFingerDistal": [0, 0, 0],
+      "LeftMiddleFingerProximal": [0, 0, 0],
+      "LeftMiddleFingerIntermediate": [0, 0, 0],
+      "LeftMiddleFingerDistal": [0, 0, 0],
+      "LeftIndexFingerProximal": [0, 0, 0],
+      "LeftIndexFingerIntermediate": [0, 0, 0],
+      "LeftIndexFingerDistal": [0, 0, 0]
+    },
+    "KasumizawaMiyu": {
+      "RightUpperArm": [
+        1.5236664293643263, -1.3447559419626791, 2.8132708814972287
+      ],
+      "RightForeArm": [
+        0.5288595960357396, 0.09596247973872467, 0.22929079225271348
+      ],
+      "RightWrist": [2.592731642491793, 1.1721877346024345, 3.078340845102213],
+      "RightThumbProximal": [
+        -0.920346658378982, -0.33871501653001407, -0.7464982902350608
+      ],
+      "RightThumbIntermediate": [
+        0.12483093883068114, 0.07521483541375058, -0.19753905755543455
+      ],
+      "RightThumbDistal": [
+        0.020082393366116745, 0.12082058123702984, -0.24042509184293478
+      ],
+      "RightIndexFingerProximal": [
+        -0.1677066076236384, -0.11133618328550662, -0.664040445643582
+      ],
+      "RightIndexFingerIntermediate": [
+        -0.1366603984426349, 0.12389119436953613, -1.5830207816721296
+      ],
+      "RightIndexFingerDistal": [
+        0.19737357033503766, 0.14057269716596155, -1.661868158073663
+      ],
+      "RightMiddleFingerProximal": [
+        0.027746356700079248, 0.02896480523578945, -1.0898171017561706
+      ],
+      "RightMiddleFingerIntermediate": [
+        -0.03242530602711254, -0.01756184162966957, -1.1890020813125313
+      ],
+      "RightMiddleFingerDistal": [
+        0.111753850494995, -0.00275193471272917, -1.1586098303112506
+      ],
+      "RightRingFingerProximal": [
+        0.21852805650249627, 0.11681500721434043, -1.0967749230105255
+      ],
+      "RightRingFingerIntermediate": [
+        -0.054006752248028866, -0.11197520038468853, -1.109337418218028
+      ],
+      "RightRingFingerDistal": [
+        0.14744872223478703, 0.05795415155216565, -1.1658542964707481
+      ],
+      "RightLittleFingerProximal": [
+        0.5004201051085001, 0.1899882277998769, -1.2172366337100766
+      ],
+      "RightLittleFingerIntermediate": [
+        0.02916667549798971, -0.22579342605593888, -1.1111792904828341
+      ],
+      "RightLittleFingerDistal": [
+        0.3566320758479806, 0.12268675826052125, -1.1774771421387875
+      ],
+      "LeftUpperArm": [
+        2.365841232589571, -1.1603563828856045, -2.6048271440345143
+      ],
+      "LeftForeArm": [
+        3.0835521672225767, -0.18833925180641886, 3.0621785272639452
+      ],
+      "LeftWrist": [
+        -2.7011734659734934, -0.7475668056737675, -2.965021279153257
+      ],
+      "LeftLittleFingerProximal": [
+        2.9524980460190338, -0.008697768555571743, 2.409168949058526
+      ],
+      "LeftLittleFingerIntermediate": [
+        0.23061697279492843, -0.26950789733611985, -1.5442168158087848
+      ],
+      "LeftLittleFingerDistal": [
+        -0.03813406240409912, -0.2391683512854306, -1.6582311944663923
+      ],
+      "LeftThumbProximal": [
+        -2.894947017710605, 0.7681131222551181, 2.532222988068453
+      ],
+      "LeftThumbIntermediate": [
+        -0.38374412817747405, 0.38951834439091076, 0.5560887698779007
+      ],
+      "LeftThumbDistal": [
+        0.06543624156857365, -0.1764831855670423, -0.0553973901663862
+      ],
+      "LeftIndexFingerProximal": [
+        -2.996976148204542, 0.126731142062939, 3.098058285767637
+      ],
+      "LeftIndexFingerIntermediate": [
+        -0.03822279267208813, 0.08038421616369404, -0.8113024772635619
+      ],
+      "LeftIndexFingerDistal": [
+        -0.2811431388987668, 0.042529392833229075, -1.5908261222741764
+      ],
+      "LeftMiddleFingerProximal": [
+        -3.089347030064921, 0.1227847178075696, 2.770466254240592
+      ],
+      "LeftMiddleFingerIntermediate": [
+        0.030661430172454422, -0.0056179851024454625, -1.59941863721474
+      ],
+      "LeftMiddleFingerDistal": [
+        -0.25853059592501626, 0.07951238948916539, -1.5488965454104462
+      ],
+      "LeftRingFingerProximal": [
+        2.987232230835298, 0.0700132695701005, 2.5537803513288466
+      ],
+      "LeftRingFingerIntermediate": [
+        0.12669218815522532, -0.13840400393391697, -1.6381804919439895
+      ],
+      "LeftRingFingerDistal": [
+        -0.10298947205854159, -0.04286619688005251, -1.7185156033594637
+      ]
+    },
+    "Rapi": {
+      "LeftUpperArm": [
+        -0.32772484722264467, 0.8120760356254191, -1.3035171048614131
+      ],
+      "LeftForeArm": [
+        -0.0013928386356808697, -0.00000394976922277772, 0.000014081650439832899
+      ],
+      "LeftWrist": [
+        1.419946259159936, -0.000004129608115477992, -0.0677123378884242
+      ],
+      "LeftIndexFingerProximal": [
+        0.3264771762927707, 0.026094067067413892, -0.007258762557378635
+      ],
+      "LeftIndexFingerIntermediate": [
+        0.15930645374584024, 0.045861176745229944, -0.011291939960739817
+      ],
+      "LeftIndexFingerDistal": [
+        0.0036279757119276495, 2.048355637135726e-7, 0.0000025360948801816447
+      ],
+      "LeftMiddleFingerProximal": [
+        0.3371098463351166, 0.02144927185191162, 0.002522045484258779
+      ],
+      "LeftMiddleFingerIntermediate": [
+        -0.06170894414135928, -0.0033139767888276436, -0.03439990886715543
+      ],
+      "LeftMiddleFingerDistal": [
+        0.008880500265704465, 1.585008309389886e-7, 9.82792459567371e-7
+      ],
+      "LeftRingFingerProximal": [
+        0.3263703742687542, 0.029802267550606068, -0.0346880270458167
+      ],
+      "LeftRingFingerIntermediate": [
+        -0.0268347808626555, -0.003827056517044174, -0.012277732390863718
+      ],
+      "LeftRingFingerDistal": [
+        0.010385117706415469, 1.734968114409526e-7, 5.1254570813135125e-8
+      ],
+      "LeftLittleFingerProximal": [
+        0.38257524078155664, 0.044213941701606446, -0.04927345940125031
+      ],
+      "LeftLittleFingerIntermediate": [
+        -0.03602701908424919, 0.011495604932382438, 0.008729973320449426
+      ],
+      "LeftLittleFingerDistal": [
+        -0.07082610386313483, 2.1928455003801132e-7, 5.8801162162112e-7
+      ],
+      "LeftThumbProximal": [
+        1.8098931524468418, -0.3006104326731335, 0.715070527292875
+      ],
+      "LeftThumbIntermediate": [
+        0.06270329121417854, 0.08279004265620075, -0.14978828260397656
+      ],
+      "LeftThumbDistal": [
+        -0.053621790339421396, 7.486003844387328e-8, 3.7107663182363755e-7
+      ],
+      "RightUpperArm": [
+        1.8434556174952241, -0.5232657355867635, 0.03759024229765329
+      ],
+      "RightForeArm": [
+        -0.9330169073082312, -1.3362213132830267, -0.7556136717826337
+      ],
+      "RightWrist": [
+        -1.341772542112981, 0.10145762111159402, 0.4933660986981279
+      ],
+      "RightIndexFingerProximal": [
+        -0.23510309779168678, 0.047232993775340064, -0.8651306413856324
+      ],
+      "RightIndexFingerIntermediate": [
+        0.3066662125489253, 0.15908800450572605, -2.2313022181819444
+      ],
+      "RightIndexFingerDistal": [
+        -0.0033107021831318083, -0.026161415228991614, -0.06297447336066359
+      ],
+      "RightMiddleFingerProximal": [
+        -0.23853810206170678, 0.05834092426278648, -0.8549386206293554
+      ],
+      "RightMiddleFingerIntermediate": [
+        0.2329835515613734, -0.04806277855321108, -2.252490178715532
+      ],
+      "RightMiddleFingerDistal": [
+        -0.008880209684559172, 9.201149416641579e-8, 4.62586513089107e-7
+      ],
+      "RightRingFingerProximal": [
+        -0.23792986419383882, 0.04472027876986776, -0.892429679149458
+      ],
+      "RightRingFingerIntermediate": [
+        0.23006190619291994, -0.006704281652914594, -2.2327409345323566
+      ],
+      "RightRingFingerDistal": [
+        -0.010390584791267065, 2.4293663135510987e-7, 2.0720644062640346e-7
+      ],
+      "RightLittleFingerProximal": [
+        -0.3003774313041317, 0.06900130488539673, -0.8100646585780983
+      ],
+      "RightLittleFingerIntermediate": [
+        0.26908557728312044, 0.08537963555386571, -2.048572760005483
+      ],
+      "RightLittleFingerDistal": [
+        0.07082073778819516, -3.145217899643971e-8, -1.3106647527692842e-7
+      ],
+      "RightThumbProximal": [
+        -1.8219695243001925, 0.2838321304553201, 0.4915699739702676
+      ],
+      "RightThumbIntermediate": [
+        0.01147954042604724, -0.05696078036824285, -1.0018278710810684
+      ],
+      "RightThumbDistal": [
+        0.11846910295995078, -0.025251657524632026, -1.1500695082418362
+      ]
+    },
+    "Remy": {
+      "LeftUpperArm": [0, 0, 0],
+      "LeftForeArm": [0, 0, 0],
+      "LeftWrist": [0, 0, 0],
+      "LeftIndexFingerProximal": [0, 0, 0],
+      "LeftIndexFingerIntermediate": [0, 0, 0],
+      "LeftIndexFingerDistal": [0, 0, 0],
+      "LeftMiddleFingerProximal": [0, 0, 0],
+      "LeftMiddleFingerIntermediate": [0, 0, 0],
+      "LeftMiddleFingerDistal": [0, 0, 0],
+      "LeftRingFingerProximal": [0, 0, 0],
+      "LeftRingFingerIntermediate": [0, 0, 0],
+      "LeftRingFingerDistal": [0, 0, 0],
+      "LeftLittleFingerProximal": [0, 0, 0],
+      "LeftLittleFingerIntermediate": [0, 0, 0],
+      "LeftLittleFingerDistal": [0, 0, 0],
+      "LeftThumbProximal": [0, 0, 0],
+      "LeftThumbIntermediate": [0, 0, 0],
+      "LeftThumbDistal": [0, 0, 0],
+      "RightUpperArm": [0, 0, 0],
+      "RightForeArm": [0, 0, 0],
+      "RightWrist": [0, 0, 0],
+      "RightIndexFingerProximal": [0, 0, 0],
+      "RightIndexFingerIntermediate": [0, 0, 0],
+      "RightIndexFingerDistal": [0, 0, 0],
+      "RightMiddleFingerProximal": [0, 0, 0],
+      "RightMiddleFingerIntermediate": [0, 0, 0],
+      "RightMiddleFingerDistal": [0, 0, 0],
+      "RightRingFingerProximal": [0, 0, 0],
+      "RightRingFingerIntermediate": [0, 0, 0],
+      "RightRingFingerDistal": [0, 0, 0],
+      "RightLittleFingerProximal": [0, 0, 0],
+      "RightLittleFingerIntermediate": [0, 0, 0],
+      "RightLittleFingerDistal": [0, 0, 0],
+      "RightThumbProximal": [0, 0, 0],
+      "RightThumbIntermediate": [0, 0, 0],
+      "RightThumbDistal": [0, 0, 0]
+    },
+    "Ururu": {
+      "LeftUpperArm": [
+        -0.9723320046796732, 0.2706846296406344, -0.4233801787750893
+      ],
+      "LeftForeArm": [1.788562564228372, 1.08396705785513, -2.1153031579274932],
+      "LeftWrist": [
+        1.2292713943970375, 1.8502533361138205e-7, 8.057587580220405e-7
+      ],
+      "LeftIndexFingerProximal": [
+        0.3263855523172403, 0.0069172464455679065, -0.0009445446526344086
+      ],
+      "LeftIndexFingerIntermediate": [
+        0.15904795432186963, -1.269557238590402e-7, -0.000002675067211212356
+      ],
+      "LeftIndexFingerDistal": [
+        0.0036282038871578884, 1.9385890131073036e-7, 0.0000021323850494555762
+      ],
+      "LeftMiddleFingerProximal": [
+        0.3371412042206925, 0.00690667269753954, -0.0010190539524953283
+      ],
+      "LeftMiddleFingerIntermediate": [
+        -0.06165121556761015, 2.074054314998788e-7, -3.1708081026012647e-7
+      ],
+      "LeftMiddleFingerDistal": [
+        0.008880376396157552, 2.1462011237841333e-7, 5.122159081182485e-7
+      ],
+      "LeftRingFingerProximal": [
+        0.32585697551371545, 0.0069177484734092845, -0.0009406227387567714
+      ],
+      "LeftRingFingerIntermediate": [
+        -0.02681231418312412, 2.1199272940315733e-7, -0.000001499651583506871
+      ],
+      "LeftRingFingerDistal": [
+        0.010386110536448239, 2.218095376583716e-7, 2.865124658827241e-8
+      ],
+      "LeftLittleFingerProximal": [
+        0.3814908385968187, 0.006854683287458922, -0.001324697218535679
+      ],
+      "LeftLittleFingerIntermediate": [
+        -0.035976242055001516, 1.8185057578086276e-7, 0.0000011808443038365988
+      ],
+      "LeftLittleFingerDistal": [
+        -0.07082598442975223, 2.4106188034894e-7, -7.505077903068074e-7
+      ],
+      "LeftThumbProximal": [
+        1.875201944048106, -0.18862767057498622, 0.5471261718795423
+      ],
+      "LeftThumbIntermediate": [
+        0.046157690238527026, 0.000489591842056262, -0.058402838854335413
+      ],
+      "LeftThumbDistal": [
+        -0.05362314142373257, 1.703201621004555e-7, -6.515550446728667e-7
+      ],
+      "RightUpperArm": [
+        1.0540149994625518, -0.7554531910743452, -0.6615236975027597
+      ],
+      "RightForeArm": [
+        0.23878449295815457, 0.06726768857357283, -2.581181703199194
+      ],
+      "RightWrist": [
+        -1.2321006143033784, -1.572541006748844e-7, -8.047938513583436e-7
+      ],
+      "RightIndexFingerProximal": [
+        -0.8842837372587627, -0.05452696789570959, 0.6765089977918368
+      ],
+      "RightIndexFingerIntermediate": [
+        -0.15906867101811797, 9.547542214792362e-8, -6.981311912550898e-7
+      ],
+      "RightIndexFingerDistal": [
+        -0.0033109508549302243, -0.026161562393123873, -0.06297189505817606
+      ],
+      "RightMiddleFingerProximal": [
+        0.41814651829929483, 0.1580090926667, 0.4799054862216532
+      ],
+      "RightMiddleFingerIntermediate": [
+        0.06162198965883796, 2.2160761462973812e-7, 2.940980987491508e-7
+      ],
+      "RightMiddleFingerDistal": [
+        -0.008880122137624954, 5.118336874858394e-9, 1.0578813514683947e-7
+      ],
+      "RightRingFingerProximal": [
+        -0.29995336014351737, -0.08193350579773533, -1.2536931315439248
+      ],
+      "RightRingFingerIntermediate": [
+        0.057205201448940514, -0.11724028133766971, -1.809507854234241
+      ],
+      "RightRingFingerDistal": [
+        -0.010390567095395938, -1.486245295678821e-8, -7.527998822158509e-9
+      ],
+      "RightLittleFingerProximal": [
+        -0.22805833835898004, -0.1952158850219469, -1.3508809430021662
+      ],
+      "RightLittleFingerIntermediate": [
+        0.005867317577372056, 0.017862468839323208, -1.7548574707235705
+      ],
+      "RightLittleFingerDistal": [
+        0.07082085722135587, 2.873507649128917e-7, 3.1992246207911257e-7
+      ],
+      "RightThumbProximal": [
+        -1.8963044993382778, 0.17744402251465757, 0.5522483009799591
+      ],
+      "RightThumbIntermediate": [
+        0.6385719255207468, 0.44860122341677605, -1.3828212068606303
+      ],
+      "RightThumbDistal": [
+        0.26670671967070725, 0.0907645829520419, -0.46919926768840303
+      ]
+    },
+    "Example": {
+      "LeftUpperArm": [0, 0, 0],
+      "LeftForeArm": [0, 0, 0],
+      "LeftWrist": [0, 0, 0],
+      "LeftIndexFingerProximal": [0, 0, 0],
+      "LeftIndexFingerIntermediate": [0, 0, 0],
+      "LeftIndexFingerDistal": [0, 0, 0],
+      "LeftMiddleFingerProximal": [0, 0, 0],
+      "LeftMiddleFingerIntermediate": [0, 0, 0],
+      "LeftMiddleFingerDistal": [0, 0, 0],
+      "LeftRingFingerProximal": [0, 0, 0],
+      "LeftRingFingerIntermediate": [0, 0, 0],
+      "LeftRingFingerDistal": [0, 0, 0],
+      "LeftLittleFingerProximal": [0, 0, 0],
+      "LeftLittleFingerIntermediate": [0, 0, 0],
+      "LeftLittleFingerDistal": [0, 0, 0],
+      "LeftThumbProximal": [0, 0, 0],
+      "LeftThumbIntermediate": [0, 0, 0],
+      "LeftThumbDistal": [0, 0, 0],
+      "RightUpperArm": [0, 0, 0],
+      "RightForeArm": [0, 0, 0],
+      "RightWrist": [0, 0, 0],
+      "RightIndexFingerProximal": [0, 0, 0],
+      "RightIndexFingerIntermediate": [0, 0, 0],
+      "RightIndexFingerDistal": [0, 0, 0],
+      "RightMiddleFingerProximal": [0, 0, 0],
+      "RightMiddleFingerIntermediate": [0, 0, 0],
+      "RightMiddleFingerDistal": [0, 0, 0],
+      "RightRingFingerProximal": [0, 0, 0],
+      "RightRingFingerIntermediate": [0, 0, 0],
+      "RightRingFingerDistal": [0, 0, 0],
+      "RightLittleFingerProximal": [0, 0, 0],
+      "RightLittleFingerIntermediate": [0, 0, 0],
+      "RightLittleFingerDistal": [0, 0, 0],
+      "RightThumbProximal": [0, 0, 0],
+      "RightThumbIntermediate": [0, 0, 0],
+      "RightThumbDistal": [0, 0, 0]
+    }
+  }
+}
