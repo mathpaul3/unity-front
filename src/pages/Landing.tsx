@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import useDebounce from "../utils/debounce";
 import axios from "axios";
 import { PART_OF_SPEECH, PartOfSpeechType, WordBlockType } from "../types";
-import Model3D from "../components/3d/Model3D";
+// import Model3D from "../components/3d/Model3D";
 import VideoPlayer from "../components/VideoPlayer";
 
 function Landing() {
