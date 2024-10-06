@@ -3,6 +3,7 @@ import useDebounce from "../utils/debounce";
 import axios from "axios";
 import { PART_OF_SPEECH, PartOfSpeechType, WordBlockType } from "../types";
 import Model3D from "../components/3d/Model3D";
+import VideoPlayer from "../components/VideoPlayer";
 
 function Landing() {
   const [input, setInput] = useState<string>("");
@@ -29,9 +30,10 @@ function Landing() {
 
   return (
     <>
-      <div id="model-3d-container">
+      {/* <div id="model-3d-container">
         <Model3D />
-      </div>
+      </div> */}
+      <VideoPlayer data={data} />
       <div id="sentence-input">
         <input
           type="text"
@@ -47,6 +49,7 @@ function Landing() {
         {/* {debouncedInput} */}
         {Object.keys(data).map((part_of_speech, idx) => {
           const part = part_of_speech as PartOfSpeechType;
+          if (part === "sequence") return;
           return (
             <ul className="blocks" key={"p" + idx}>
               <li className="title">{PART_OF_SPEECH[part]}</li>

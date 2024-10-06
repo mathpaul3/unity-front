@@ -24,7 +24,8 @@ export type PartOfSpeechType =
   // | "ScreenName"
   | "Suffix"
   | "Unknown"
-  | "Verb";
+  | "Verb"
+  | "sequence";
 
 export const PART_OF_SPEECH: { [key in PartOfSpeechType]: string } = {
   Adjective: "형용사",
@@ -46,6 +47,7 @@ export const PART_OF_SPEECH: { [key in PartOfSpeechType]: string } = {
   Suffix: "접미사",
   Unknown: "미등록어",
   Verb: "동사",
+  sequence: "단어 순서",
 };
 
 export type WordBlockType = {

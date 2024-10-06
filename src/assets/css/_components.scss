@@ -120,3 +120,15 @@
 #model-3d-container {
   height: 40vh;
 }
+
+#video-player {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+
+  .wrapper {
+    background-color: #565656;
+    height: 466px;
+    width: 700px;
+  }
+}
